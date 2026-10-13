@@ -1,0 +1,42 @@
+{
+  "schema": "zto-review-result-v1",
+  "status": "accepted",
+  "chain_id": 1,
+  "pool_id": "0x888b07bd282f587d3c6b0fcb23e7fc55bbb33abe8910dd7492db815dc8dc5592",
+  "snapshot_sha256": "3b86531e4460f2e694b7f824ed5027bf9230a331025d7cbddf0ef759ef560a30",
+  "policy_sha256": "56e52bdf5c69ae7cb2a4c6127cd41a1dc7a585c6eaba4ab385ddd5687613e0c1",
+  "report_sha256": "ec2b2bc07494da7fc8d392b747e1e8db92af12d3cd2c3cf3ca9e63ad844d68e7",
+  "block": {
+    "number": "0x18f8a44",
+    "hash": "0xcd8e7e4ba940af1feac8d6b441c37ef0230c4bcd2fd55d36376038a4b4c36650",
+    "timestamp": "0x6ace4457"
+  },
+  "reference_block": 26184260,
+  "age_blocks": 0,
+  "reasons": [],
+  "differences": [],
+  "usable_bounds": [
+    {
+      "input_token": "ZTO",
+      "output_token": "IMD",
+      "requested_input_raw": "1000000000000000000",
+      "estimated_output_raw": "15292155595473",
+      "minimum_output_raw": "15139234039518"
+    },
+    {
+      "input_token": "ZTO",
+      "output_token": "IMD",
+      "requested_input_raw": "100000000000000000000000000",
+      "estimated_output_raw": "1196130391948897309582",
+      "minimum_output_raw": "1184169088029408336486"
+    }
+  ],
+  "limitations": [
+    "Caller policy is a trust input; the bundled demo policy is historical demonstration only.",
+    "Digest pins supplied evidence, not Ethereum consensus or provider authenticity.",
+    "Age is relative to the supplied reference block, not a live freshness check.",
+    "Reuses ZTO Sizes/Path arithmetic; this is not an independent numerical implementation.",
+    "Planning bounds do not enforce receipts or simulate settlement, transfers, gas or MEV."
+  ],
+  "mode": "historical_demo"
+}

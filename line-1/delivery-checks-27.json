@@ -1,0 +1,27 @@
+{
+  "status": "pass",
+  "tests_passed": 60,
+  "record": "27.json",
+  "numbered_record_count": 27,
+  "wall_sha256": "a6da70cce38d07e463256e9f0c4be14ddc0cb09fcc7b9b8f30e5b295944bdb58",
+  "wall_dimensions": [
+    1254,
+    1254
+  ],
+  "wall_format": "PNG",
+  "wall_paths_identical": true,
+  "jpeg_dimensions": [
+    512,
+    512
+  ],
+  "jpeg_format": "JPEG",
+  "jpeg_bytes": 55306,
+  "goal_unchanged_bytes": true,
+  "older_tracked_records_unchanged": true,
+  "allowed_changed_paths_only": true,
+  "output_images_untracked": true,
+  "new_files_under_100KB_outside_artifacts": true,
+  "demo_mode": "historical_demo",
+  "usable_demo_bounds": 2,
+  "unmet_visual_requirements": []
+}

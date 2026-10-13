@@ -1,0 +1,16 @@
+{
+  "schema": "zto-review-policy-v1",
+  "snapshot_sha256": "3b86531e4460f2e694b7f824ed5027bf9230a331025d7cbddf0ef759ef560a30",
+  "block_number": 26184260,
+  "block_hash": "0xcd8e7e4ba940af1feac8d6b441c37ef0230c4bcd2fd55d36376038a4b4c36650",
+  "reference_block": 26184260,
+  "max_age_blocks": 0,
+  "input_token": "ZTO",
+  "amounts": [
+    "1",
+    "100000000",
+    "1000000000"
+  ],
+  "slippage_bps": 100,
+  "max_spot_loss_bps": null
+}

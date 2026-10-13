@@ -1,0 +1,27 @@
+{
+  "ancestor_sha256": "12c0b65b91781f55da4c19ebd5c7d16ab09e4d3597cbed8ee7a986068b7e6940",
+  "wall_sha256": "a6da70cce38d07e463256e9f0c4be14ddc0cb09fcc7b9b8f30e5b295944bdb58",
+  "wall": {
+    "width": 1254,
+    "height": 1254,
+    "format": "PNG",
+    "mode": "RGB",
+    "bytes": 3975226
+  },
+  "jpeg": {
+    "width": 512,
+    "height": 512,
+    "format": "JPEG",
+    "bytes": 55306
+  },
+  "addition_box": [
+    275,
+    195,
+    450,
+    287
+  ],
+  "changed_pixels_inside": 6017,
+  "changed_pixels_outside": 0,
+  "method": "Generated pigment composited onto original rock; white carrier discarded",
+  "unmet_visual_requirements": []
+}
