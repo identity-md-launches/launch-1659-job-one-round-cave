@@ -1,0 +1,17 @@
+{
+  "tool": "Code Set",
+  "command": "python3 -B -m unittest discover -s line-3/tools/code-set -p 'test_*.py' -v",
+  "exit_code": 0,
+  "tests_run": 17,
+  "elapsed_seconds": 4.737,
+  "result": "passed",
+  "demo_command": "python3 -B line-3/tools/code-set/code_set_demo.py",
+  "demo_exit_code": 0,
+  "demo_expected_decision": "refuse",
+  "demo_reason": "missing-caller-anchor",
+  "evidence": "Saved real ZTO and IMD proofs, block 26185280; no new live read or independently authenticated anchor.",
+  "limitations": [
+    "Local contributor checks are not independent certification.",
+    "Acceptance tests exercise observed-hash equality only; authenticity remains false."
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "The Paired Stones",
+  "image": "https://api.imd.fun/artifacts/1369fe961005002e308a48326693ded86cb30834a9befa5b7cb4d721fd8bb175",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Moss"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 3"
+    },
+    {
+      "trait_type": "Number",
+      "value": 27
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Code Set"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Pepe checks two contract code identities together at one proved block."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Ethereum executable code identity"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "ancestor_sha256": "ea9248dd84c6c542aee27976baaffc145aabfacf2281c286f4c444e74ec46a31",
+  "generated_before_assembly_sha256": "929781b6d3ac7760333a001c9f161b376b8ab8c932b7993f7f8e0c2769fad12c",
+  "wall_sha256": "1369fe961005002e308a48326693ded86cb30834a9befa5b7cb4d721fd8bb175",
+  "format": "PNG",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGB",
+  "wall_bytes": 3966960,
+  "addition_box_xyxy": [
+    830,
+    80,
+    1155,
+    244
+  ],
+  "changed_pixels_inside_box": 52109,
+  "changed_pixels_outside_box": 0,
+  "manual_review_pending": false,
+  "manual_review_completed": true,
+  "new_hands": 0,
+  "inherited_visible_hands": 2,
+  "inherited_digits_per_hand": [
+    5,
+    5
+  ],
+  "unmet_visual_requirements": [],
+  "limitations": [
+    "Generated rock texture differs inside the addition rectangle.",
+    "Pepe likeness, pigment style and worn digit counts are contributor visual judgments."
+  ]
+}

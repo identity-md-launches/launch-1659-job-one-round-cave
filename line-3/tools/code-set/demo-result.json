@@ -1,0 +1,122 @@
+{
+  "demonstration_passed": true,
+  "example_manifest_and_reviews_are_not_endorsements": true,
+  "independent_anchor_available": false,
+  "result": {
+    "schema": "code-set-result-v1",
+    "chain_id": 1,
+    "decision": "refuse",
+    "manifest_digest": "0x9b28b224fdeec3763a27526e5436af1f34544b7c497e13d0befed4aaa1f15e60",
+    "code_block": {
+      "number": "0x18f8e40",
+      "hash": "0x57f561e7217307ab29f9fc3563627b97b97242261522b70429f2a873cf2593fd"
+    },
+    "as_of_block": 26185288,
+    "member_count": 2,
+    "reasons": [
+      {
+        "role": "IMD",
+        "target": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+        "reasons": [
+          "missing-caller-anchor"
+        ]
+      },
+      {
+        "role": "ZTO",
+        "target": "0xd782bdea4ef02a0bd391eb9089470c8080f0a68e",
+        "reasons": [
+          "missing-caller-anchor"
+        ]
+      }
+    ],
+    "members": [
+      {
+        "role": "IMD",
+        "target": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+        "member_reasons": [
+          "missing-caller-anchor"
+        ],
+        "review_result": {
+          "schema": "code-review-result-v1",
+          "chain_id": 1,
+          "decision": "refuse",
+          "reasons": [
+            "missing-caller-anchor"
+          ],
+          "identity_matches": true,
+          "review_digest": "0xfb5c3ecb1333fcea051820254cf4c0f89f507d6943e9672c736c0cb42a6a8baf",
+          "target": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+          "code_block": {
+            "number": "0x18f8e40",
+            "hash": "0x57f561e7217307ab29f9fc3563627b97b97242261522b70429f2a873cf2593fd"
+          },
+          "checkpoint": {
+            "number": "0x18f8e40",
+            "hash": "0x57f561e7217307ab29f9fc3563627b97b97242261522b70429f2a873cf2593fd"
+          },
+          "as_of_block": 26185288,
+          "code_age_blocks": 8,
+          "max_age_blocks": 8,
+          "age_reference": "caller-supplied-height; not current-time verification",
+          "differences": [],
+          "state_inclusion_verified": true,
+          "anchor_hash_matched": false,
+          "anchor_authenticity_verified": false,
+          "consensus_verified": false,
+          "parent_links_verified": 0,
+          "proof_provenance": {
+            "transport_source": "worker-provided-relay",
+            "source": "https://ethereum-rpc.publicnode.com",
+            "source_kind": "attribution-only"
+          },
+          "scope": "Exact reviewed runtime/path/slot identity at code_block only. The caller must independently trust the anchor and review. A match does not establish semantic safety, routing behavior, unchanged code between blocks, code at checkpoint/today, finality, or permission to transact."
+        }
+      },
+      {
+        "role": "ZTO",
+        "target": "0xd782bdea4ef02a0bd391eb9089470c8080f0a68e",
+        "member_reasons": [
+          "missing-caller-anchor"
+        ],
+        "review_result": {
+          "schema": "code-review-result-v1",
+          "chain_id": 1,
+          "decision": "refuse",
+          "reasons": [
+            "missing-caller-anchor"
+          ],
+          "identity_matches": true,
+          "review_digest": "0xafffea7eb9b295d962e0a1031b72fb272a322ebd26c5cdf769dc21e0f061cda6",
+          "target": "0xd782bdea4ef02a0bd391eb9089470c8080f0a68e",
+          "code_block": {
+            "number": "0x18f8e40",
+            "hash": "0x57f561e7217307ab29f9fc3563627b97b97242261522b70429f2a873cf2593fd"
+          },
+          "checkpoint": {
+            "number": "0x18f8e40",
+            "hash": "0x57f561e7217307ab29f9fc3563627b97b97242261522b70429f2a873cf2593fd"
+          },
+          "as_of_block": 26185288,
+          "code_age_blocks": 8,
+          "max_age_blocks": 8,
+          "age_reference": "caller-supplied-height; not current-time verification",
+          "differences": [],
+          "state_inclusion_verified": true,
+          "anchor_hash_matched": false,
+          "anchor_authenticity_verified": false,
+          "consensus_verified": false,
+          "parent_links_verified": 0,
+          "proof_provenance": {
+            "transport_source": "worker-provided-relay",
+            "source": "https://ethereum-rpc.publicnode.com",
+            "source_kind": "attribution-only"
+          },
+          "scope": "Exact reviewed runtime/path/slot identity at code_block only. The caller must independently trust the anchor and review. A match does not establish semantic safety, routing behavior, unchanged code between blocks, code at checkpoint/today, finality, or permission to transact."
+        }
+      }
+    ],
+    "anchor_authenticity_verified": false,
+    "consensus_verified": false,
+    "scope": "Exact manifest member set, reviewed identities and measured slots at one proved historical block only. Caller must independently trust the manifest, reviews and anchor. No semantic safety, completeness of contract dependencies, inter-contract compatibility, code at today, consensus, or authorization to transact is established."
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "path": "artifacts/line-3/wall-v7.png",
+      "format": "PNG",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "bytes": 3966960,
+      "sha256": "1369fe961005002e308a48326693ded86cb30834a9befa5b7cb4d721fd8bb175"
+    },
+    {
+      "path": "artifacts/line-3/wall.png",
+      "format": "PNG",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "bytes": 3966960,
+      "sha256": "1369fe961005002e308a48326693ded86cb30834a9befa5b7cb4d721fd8bb175"
+    },
+    {
+      "path": "dist/line-3/27.jpg",
+      "format": "JPEG",
+      "dimensions": [
+        512,
+        512
+      ],
+      "bytes": 57518,
+      "sha256": "0402799761ca4672cea646ba421ead283aa923e574ba3bcab220b1bedebd71ba"
+    }
+  ],
+  "record": "dist/line-3/27.json",
+  "record_count": 27,
+  "record_image_hash_matches_wall": true,
+  "goal_byte_identical": true,
+  "older_records_unchanged": true,
+  "named_png_outputs_untracked": true,
+  "modified_or_new_paths_within_scope": true,
+  "new_non_artifact_files_under_100000_bytes": true,
+  "unmet_visual_requirements": [],
+  "limitations": [
+    "Generated rock texture differs inside the addition rectangle.",
+    "Pepe likeness, pigment style and worn digit counts are contributor visual judgments."
+  ]
+}
