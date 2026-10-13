@@ -11,3 +11,4 @@ These are ordinary Python source files and real historical observations, with no
 - [Revoke Rehearsal](revoke-rehearsal/README.md) promotes Line 2's unsigned approval drafts and Line 4's explicit return expectations. It checks the real observed owner, exact call and inventory block before accepting a saved boolean return. Its three real ZTO demonstrations replay offline.
 
 - [Review Rehearsal Context](review-rehearsal-context/README.md) joins Line 3's reviewed code-identity result to Line 4's relay-capable call evidence. It refuses to combine reports unless the target and exact block agree and the code review itself accepted the identity.
+- [Swap Code Context](swap-code-context/README.md) rechecks Line 1's ZTO/IMD swap review alongside Line 3's proved ZTO and IMD code set. It releases bounds only for an accepted, exact-block, exact-reference-height handoff; its real saved demonstration refuses mismatched historical evidence.

@@ -15,6 +15,14 @@ def checks():
                 commands.append((f'line-{number}-{folder.name}-suite',
                     ['-m', 'unittest', 'discover', '-s', str(folder), '-p', 'test_*.py', '-v'], 0))
     commands.extend([
+        ('zto-refresh-demo', ['line-1/tools/zto-refresh/zto_refresh.py'], 0),
+        ('zto-review-demo', ['line-1/tools/zto-review/zto_review.py', '--demo'], 0),
+        ('draft-witness-demo', ['line-2/tools/draft-witness/draft_witness.py'], 0),
+        ('draft-refresh-demo', ['line-2/tools/draft-refresh/draft_refresh.py'], 0),
+        ('code-review-demo', ['line-3/tools/code-review/demo.py'], 0),
+        ('code-set-demo', ['line-3/tools/code-set/code_set_demo.py'], 0),
+        ('relay-rehearsal-demo', ['line-4/tools/relay-rehearsal/relay_rehearsal.py', 'demo'], 0),
+        ('revert-expectation-demo', ['line-4/tools/revert-expectation/revert_expectation.py', 'demo'], 0),
         ('zto-archive-demo', ['line-1/tools/zto-archive/zto_archive.py', '--snapshot', 'line-1/tools/zto-path/observation.json'], 0),
         ('zto-capacity-demo', ['line-1/tools/zto-capacity/zto_capacity.py', '--ceiling', '1000000000', '--slippage-bps', '100'], 0),
         ('allowance-union-demo', ['line-2/tools/allowance-union/allowance_union.py'], 0),
@@ -54,6 +62,9 @@ def checks():
     if Path('shared/review-rehearsal-context/review_rehearsal_context.py').exists():
         commands.append(('review-rehearsal-context-demo',
                          ['shared/review-rehearsal-context/review_rehearsal_context.py', 'demo'], 2))
+    if Path('shared/swap-code-context/swap_code_context.py').exists():
+        commands.append(('swap-code-context-demo',
+                         ['shared/swap-code-context/swap_code_context.py', '--demo'], 2))
     return commands
 
 

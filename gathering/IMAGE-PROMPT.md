@@ -1,5 +1,5 @@
-# Gathering 05 image prompt
+# Gathering 07 image prompt
 
-Built-in imagegen; existing Gathering 04 wall as the edit target. Add two small irregular earth-pigment stones linked by worn red ochre cord in formerly bare upper-left rock, with a chalk glint on the second stone. Keep 1254-square framing, rock, cracks, light, every ancestral mark and Pepe's two five-digit hands. No new hands, letters, numbers, captions, signatures, logos, watermarks, borders, photographs, 3D renders, real people or political/hateful symbols.
+Built-in imagegen edited the retrieved Gathering 06 wall. The instruction was to keep the entire 1254-square rough cave, warm torchlight, rock cracks, central five-digit-handed Pepe and every ancestral mark, then add only four small worn ochre/chalk stone dabs around a charcoal ring in open upper-right rock. Earth pigments and bare rock only; no new handprints, text, numbers, logos, frames, photographs, real people or prohibited symbols.
 
-The generated pigment patch was visually reviewed and feather-composited onto the original rock. Full specification, meaning, preservation result and limitations: [VISUAL.md](VISUAL.md).
+The full-wall generation was visually inspected, and only the new pigment area was transferred onto the exact prior wall. The measured result and limitations are in [VISUAL.md](VISUAL.md).

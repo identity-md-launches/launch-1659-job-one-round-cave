@@ -1,10 +1,1 @@
-{
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
-  "attributes": [
-    {
-      "trait_type": "Cave",
-      "value": "Moss"
-    }
-  ]
-}
+{"name":"Four stones meet","image":"https://api.imd.fun/artifacts/b01248b2157b1f43afa0d321f0bf027279888be4080014e09d3e444e596688aa","attributes":[{"trait_type":"Cave","value":"Moss"},{"trait_type":"Wall","value":"Gathering"},{"trait_type":"Number","value":7},{"trait_type":"Left behind","value":"Swap Code Context"},{"trait_type":"Meaning","value":"Four worn stones meet at one dark ring where a swap bound waits for matching code evidence."},{"trait_type":"One thing","value":"Gathering"}]}
