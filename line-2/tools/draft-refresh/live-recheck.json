@@ -1,0 +1,41 @@
+{
+  "schema": "allowance-lens-observation-v1",
+  "source": "https://ethereum-rpc.publicnode.com",
+  "chain_id": 1,
+  "token": "ZTO",
+  "token_address": "0xd782bdea4ef02a0bd391eb9089470c8080f0a68e",
+  "block": {
+    "number": "0x18f93bb",
+    "hash": "0xf5fded9d2b293380b0e1274a7d1bd1375e644e70bc181e3e43db1041aaa4ce6d",
+    "timestamp": "0x6aceb657"
+  },
+  "query": {
+    "mode": "explicit_pairs",
+    "from_block": 26186683,
+    "to_block": 26186683,
+    "owner": "0x632ee80c099662ee9880d04a307401de195dabf8",
+    "spenders": [
+      "0x765956a7307222346b08fff681820a5d77e92028"
+    ]
+  },
+  "logs": [],
+  "log_headers": {},
+  "raw": {
+    "decimals": "0x0000000000000000000000000000000000000000000000000000000000000012",
+    "balances": [
+      {
+        "owner": "0x632ee80c099662ee9880d04a307401de195dabf8",
+        "data": "0x70a08231000000000000000000000000632ee80c099662ee9880d04a307401de195dabf8",
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      }
+    ],
+    "allowances": [
+      {
+        "owner": "0x632ee80c099662ee9880d04a307401de195dabf8",
+        "spender": "0x765956a7307222346b08fff681820a5d77e92028",
+        "data": "0xdd62ed3e000000000000000000000000632ee80c099662ee9880d04a307401de195dabf8000000000000000000000000765956a7307222346b08fff681820a5d77e92028",
+        "result": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+      }
+    ]
+  }
+}
