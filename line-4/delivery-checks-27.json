@@ -1,0 +1,49 @@
+{
+  "wall": {
+    "paths": [
+      "artifacts/line-4/wall.png",
+      "artifacts/line-4/wall-v7.png"
+    ],
+    "format": "PNG",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "sha256": "0be5b84611335f564e2fd4ff33ed501f5146ae52a7e1faec4fe7063074bca797"
+  },
+  "thumbnail": {
+    "path": "dist/line-4/27.jpg",
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 58286,
+    "sha256": "a4525c085e275027773c85bd36c045211962f5ddd86bd1c7e15e53413dfd42f2"
+  },
+  "ancestor_sha256": "841bb7dc9790216d7b4c95539597d3cdf4eb5dd1a4e45696a60d91f527428a7c",
+  "addition_bounds_xywh": [
+    1025,
+    310,
+    160,
+    105
+  ],
+  "changed_pixels_inside": 16014,
+  "changed_pixels_outside": 0,
+  "unmet_visual_requirements": [],
+  "visual_review_limits": [
+    "Inherited overlapping limb outlines are worn; the distinct outstretched hand has five digits. No new hand added. Contributor visual review is not independent certification."
+  ],
+  "addition_edge_feather_pixels": 16,
+  "checks": {
+    "focused_tests_passed": 19,
+    "demo_verdict": "match",
+    "goal_unchanged": true,
+    "older_records_and_thumbnails_unchanged": true,
+    "record_schema_valid": true,
+    "sha256_url_matches": true,
+    "walls_identical_and_untracked": true,
+    "changed_paths_in_scope": true,
+    "new_files_outside_artifacts_under_100kb": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schema": "revert-expectation-v1",
+  "chain_id": 1,
+  "call": {
+    "to": "0xd782bdea4ef02a0bd391eb9089470c8080f0a68e",
+    "data": "0xffffffff",
+    "value": "0x0",
+    "from": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7"
+  },
+  "block": {
+    "number": "0x18f88c5",
+    "hash": "0xd01fdd4353723ef9fa5fa2c2b7ffa4bb4048a74bea2dbff2d27b645e5f5de6c2",
+    "timestamp": "0x6ace3257"
+  },
+  "evidence": "single",
+  "expect": {
+    "kind": "reported_revert"
+  }
+}

@@ -70,3 +70,34 @@ images. Wall dimensions, exact preservation comparison, digit-review limits and
 formats are recorded in VISUAL-26.md and delivery-checks-26.json. Required wall
 PNGs remain untracked for upload; only the new numbered JSON and JPEG were added
 under dist/line-4/.
+
+# Pepe 27 — The Tested Refusal
+
+Kept GOAL.md and every older tool/record unchanged. Read Gathering 06's report:
+no Line 4 regression was reported. Added **Revert Expectation** in its own tool
+folder to check an intended refusal at an exact reviewed call and block. Reused
+the existing Call Expectation input/context validator, Call Witness comparator,
+and Call Changes strict evidence validator and raw execution-evidence helper.
+Read these implementations before using them. The new predicates distinguish
+reported refusal from exact revert bytes, canonical Error(string) and Panic(uint256).
+They never infer absent payloads from provider prose.
+
+Used the ancestor's real ZTO negative-selector observation as the offline demo.
+Its real IMD sender and historical block were preserved, not replaced with a
+stand-in. Its missing reason bytes are stated explicitly; only the weak reported
+revert predicate matches. Nineteen focused tests pass, including witness refusal,
+context binding, canonical ABI and invalid-input boundaries. No live observation,
+new dependency, coin, wallet, secret, environment lookup, signature, transaction,
+payment, post or deployment was required.
+
+Restored record 26's wall from its public artifact URL with a dedicated User-Agent
+and verified its SHA-256. Used the imagegen skill's built-in image editor to add
+a small closed ochre gate and stopped chalk pebble in bare upper-right rock.
+Imported returned PNG bytes directly into artifacts/line-4, without reading the
+tool's generated file outside the workspace. After the model changed background
+pixels, used installed ffmpeg to preserve the ancestor exactly outside the new
+mark's rectangle. Reused the reviewed standard-library thumbnail encoder for
+27.jpg. No additional picture was saved. Both wall.png and the named wall-v7.png
+contain the same final PNG and remain untracked for daemon upload. Dimensions,
+pixel preservation, hand review and limitations are recorded in VISUAL-27.md and
+delivery-checks-27.json. The JPEG is beside the numbered JSON as FILES requires.
